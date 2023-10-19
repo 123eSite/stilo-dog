@@ -54,7 +54,7 @@ $(document).ready(function() {
         nav: true,
         loop: true,
         dots: true,
-        autoplay: true,
+        autoplay: false,
         autoplayTimeout: 4500,
         responsive: {
             0: {

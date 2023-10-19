@@ -67,8 +67,8 @@
         padding: 95px 0 120px;
     }
     h1 {
-        font-size: 76px;
-        line-height: 80px;
+        font-size: 66px;
+        line-height: 70px;
     }
     .banner-section-outer .banner-section .banner-section-content .banner_top_shape {
         top: 15px;
@@ -118,13 +118,13 @@
         bottom: 0;
     }
     .services_section .services_left_shape img {
-        width: 165px;
+        width: 220px;
     }
     .services_section .services_right_shape {
         top: 60px;
     }
     .services_section .services_right_shape img {
-        width: 115px;
+        width: 220px;
     }
 
     .about_section .about_content .about_content_shape {
@@ -961,7 +961,7 @@
     .contact_info_section .contact_info_form_content .contact_info_right_shape img {
         width: 115px;
     }
-    
+
     .contact_map_section iframe {
         height: 500px;
     }
@@ -1218,29 +1218,29 @@
         width: 100px;
     }
 
-    .product-section { 
-        padding: 100px 0 70px 0; 
+    .product-section {
+        padding: 100px 0 70px 0;
     }
-    .product-section .product-box-top .name { 
-        font-size: 12px; 
+    .product-section .product-box-top .name {
+        font-size: 12px;
     }
-    .product-section .product-box-top .rate span { 
-        font-size: 12px; 
+    .product-section .product-box-top .rate span {
+        font-size: 12px;
     }
-    .product-section .product-box-top .rate i { 
-        font-size: 12px; 
+    .product-section .product-box-top .rate i {
+        font-size: 12px;
     }
-    .nft-section { 
-        padding: 100px 0; 
+    .nft-section {
+        padding: 100px 0;
     }
-    .nft-section .circle { 
-        right: -25px; 
+    .nft-section .circle {
+        right: -25px;
     }
-    .nft-section .create-nft-box .form-group { 
-        width: 46.5%; 
+    .nft-section .create-nft-box .form-group {
+        width: 46.5%;
     }
-    .checkout-section .preview-box .btn-outer .btn { 
-        font-size: 16px; 
+    .checkout-section .preview-box .btn-outer .btn {
+        font-size: 16px;
         line-height: 16px;
     }
 }
@@ -2524,121 +2524,121 @@
         width: 85px;
     }
 
-    .product-section { 
-        padding: 70px 0 40px 0; 
+    .product-section {
+        padding: 70px 0 40px 0;
     }
-    .product-section .filter-list .btn { 
-        font-size: 14px; 
-        line-height: 14px; 
-        padding: 18px 25px; 
-        margin: 0 3px; 
+    .product-section .filter-list .btn {
+        font-size: 14px;
+        line-height: 14px;
+        padding: 18px 25px;
+        margin: 0 3px;
     }
-    .product-section .heading { 
-        margin-bottom: 30px; 
+    .product-section .heading {
+        margin-bottom: 30px;
     }
-    .product-section .filter-list { 
-        margin-bottom: 40px; 
+    .product-section .filter-list {
+        margin-bottom: 40px;
     }
-    .product-section .product-box figure img { 
-        width: 100%; 
+    .product-section .product-box figure img {
+        width: 100%;
     }
-    .product-section .product-box { 
-        padding: 30px; 
+    .product-section .product-box {
+        padding: 30px;
     }
-    .product-section .product-box-top .rate i { 
-        margin-right: 5px; 
+    .product-section .product-box-top .rate i {
+        margin-right: 5px;
     }
-    .product-section .filter-list .circle { 
-        bottom: 70px; 
-        width: 60px; 
+    .product-section .filter-list .circle {
+        bottom: 70px;
+        width: 60px;
     }
 
-    .nft-section { 
-        padding: 70px 0; 
+    .nft-section {
+        padding: 70px 0;
     }
-    .nft-section .preview-box-middle .left .name { 
-        font-size: 16px; 
+    .nft-section .preview-box-middle .left .name {
+        font-size: 16px;
     }
-    .nft-section .preview-box-middle .right .bid { 
-        font-size: 13px; 
+    .nft-section .preview-box-middle .right .bid {
+        font-size: 13px;
     }
-    .nft-section .preview-box-middle .right .price { 
-        font-size: 16px; 
+    .nft-section .preview-box-middle .right .price {
+        font-size: 16px;
     }
-    .nft-section .preview-box a { 
-        font-size: 16px; 
+    .nft-section .preview-box a {
+        font-size: 16px;
         line-height: 16px;
     }
-    .nft-section .preview-box-middle { 
-        padding-bottom: 25px; 
+    .nft-section .preview-box-middle {
+        padding-bottom: 25px;
     }
-    .nft-section .create-nft-box .form-group .form-control { 
-        font-size: 14px; 
-        font-weight: 500; 
-        height: 50px; 
-        line-height: 50px; 
-        padding: 0 15px; 
+    .nft-section .create-nft-box .form-group .form-control {
+        font-size: 14px;
+        font-weight: 500;
+        height: 50px;
+        line-height: 50px;
+        padding: 0 15px;
     }
-    .nft-section .create-nft-box .form-group select { 
-        background-position: 91% 21px !important; 
+    .nft-section .create-nft-box .form-group select {
+        background-position: 91% 21px !important;
     }
-    .nft-section .create-nft-box .form-group { 
-        width: 46.6%; 
-        margin: 0 6px 15px; 
+    .nft-section .create-nft-box .form-group {
+        width: 46.6%;
+        margin: 0 6px 15px;
     }
-    .nft-section .create-nft-box .form-group textarea { 
-        height: 110px !important; 
+    .nft-section .create-nft-box .form-group textarea {
+        height: 110px !important;
     }
-    .nft-section .create-nft-box .form-check { 
-        width: 100%; 
-        padding-top: 10px; 
-        padding-bottom: 20px; 
+    .nft-section .create-nft-box .form-check {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 20px;
     }
-    .nft-section .create-nft-box .btn { 
-        font-size: 16px; 
-        line-height: 16px; 
-        padding: 18px 40px; 
-        width: 97%; 
-        margin: 0 6px; 
+    .nft-section .create-nft-box .btn {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 18px 40px;
+        width: 97%;
+        margin: 0 6px;
     }
-    .nft-section .create-nft-box .btn-outer { 
-        padding-top: 0px; 
+    .nft-section .create-nft-box .btn-outer {
+        padding-top: 0px;
     }
-    .nft-section .create-nft-box .form-check input { 
-        width: 20px; 
-        height: 20px; 
-        line-height: 20px; 
+    .nft-section .create-nft-box .form-check input {
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
     }
-    .nft-section .create-nft-box .form-check label { 
-        line-height: 18px; 
-    }
-
-    .checkout-section .preview-box .product-outer .total { 
-        padding-top: 5px; 
-        font-size: 14px; 
-    }
-    .checkout-section .preview-box .total-price-outer .total { 
-        padding-top: 5px; 
-        font-size: 14px; 
-    }
-    #search input[type="search"] { 
-        font-size: 36px; 
-    }
-    .checkout-section .create-nft-box .form-group select { 
-        background-position: 94.3% 21px !important; 
+    .nft-section .create-nft-box .form-check label {
+        line-height: 18px;
     }
 
-    .cart-section .product-image { 
-        width: 20%; 
+    .checkout-section .preview-box .product-outer .total {
+        padding-top: 5px;
+        font-size: 14px;
     }
-    .cart-section .product-details { 
-        width: 30%; 
+    .checkout-section .preview-box .total-price-outer .total {
+        padding-top: 5px;
+        font-size: 14px;
     }
-    .cart-section .product-price { 
-        width: 16%; 
+    #search input[type="search"] {
+        font-size: 36px;
     }
-    .cart-section .product-quantity { 
-        width: 13%; 
+    .checkout-section .create-nft-box .form-group select {
+        background-position: 94.3% 21px !important;
+    }
+
+    .cart-section .product-image {
+        width: 20%;
+    }
+    .cart-section .product-details {
+        width: 30%;
+    }
+    .cart-section .product-price {
+        width: 16%;
+    }
+    .cart-section .product-quantity {
+        width: 13%;
     }
 }
 
@@ -3386,117 +3386,117 @@
         display: none;
     }
 
-    .product-section { 
-        padding: 60px 0 30px 0; 
+    .product-section {
+        padding: 60px 0 30px 0;
     }
-    .product-section .filter-list .btn { 
-        margin: 5px 3px; 
-        padding: 14px 25px; 
+    .product-section .filter-list .btn {
+        margin: 5px 3px;
+        padding: 14px 25px;
     }
-    .product-section .heading { 
-        margin-bottom: 25px; 
+    .product-section .heading {
+        margin-bottom: 25px;
     }
-    .product-section .filter-list { 
-        margin-bottom: 30px; 
+    .product-section .filter-list {
+        margin-bottom: 30px;
     }
-    .product-section .filter-list .circle { 
-        bottom: 125px; 
+    .product-section .filter-list .circle {
+        bottom: 125px;
     }
-    .product-section .product-box { 
-        padding: 20px; 
+    .product-section .product-box {
+        padding: 20px;
     }
     .product-section .product-box .btn-link {
-        font-size: 14px; 
-        line-height: 14px; 
-        padding: 12px 20px; 
+        font-size: 14px;
+        line-height: 14px;
+        padding: 12px 20px;
     }
-    .product-section .product-box-middle .price { 
-        font-size: 16px; 
+    .product-section .product-box-middle .price {
+        font-size: 16px;
     }
-    .product-section .product-box-bottom { 
-        padding-bottom: 20px; 
-        margin-bottom: 20px; 
+    .product-section .product-box-bottom {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
     }
-    .product-section .product-box-bottom .name { 
-        font-size: 16px; 
-        line-height: 22px; 
+    .product-section .product-box-bottom .name {
+        font-size: 16px;
+        line-height: 22px;
     }
 
-    .nft-section { 
-        padding: 60px 0; 
+    .nft-section {
+        padding: 60px 0;
     }
-    .nft-section .circle { 
-        display: none; 
+    .nft-section .circle {
+        display: none;
     }
-    .nft-section .preview-box .preview-img img { 
-        width: 100%; 
+    .nft-section .preview-box .preview-img img {
+        width: 100%;
     }
-    .nft-section .create-nft-box .form-group label { 
-        font-size: 14px; 
-        line-height: 14px; 
+    .nft-section .create-nft-box .form-group label {
+        font-size: 14px;
+        line-height: 14px;
     }
-    .nft-section .create-nft-box .form-check label { 
-        font-size: 14px; 
-        line-height: 18px; 
-        margin-left: 10px; 
+    .nft-section .create-nft-box .form-check label {
+        font-size: 14px;
+        line-height: 18px;
+        margin-left: 10px;
     }
-    .nft-section .create-nft-box .form-group { 
+    .nft-section .create-nft-box .form-group {
         width: 47.9%;
-        margin: 0 5px 15px; 
+        margin: 0 5px 15px;
     }
-    .nft-section .create-nft-box .special { 
-        width: 98% !important; 
+    .nft-section .create-nft-box .special {
+        width: 98% !important;
     }
-    .nft-section .preview-box-middle .right { 
-        text-align: right; 
+    .nft-section .preview-box-middle .right {
+        text-align: right;
     }
-    #search input[type="search"] { 
-        font-size: 30px; 
-    }
-
-    .checkout-section .create-nft-box .form-group select { 
-        background-position: 96.3% 21px !important; 
+    #search input[type="search"] {
+        font-size: 30px;
     }
 
-    .cart-section .product-detail-box { 
-        padding: 30px; 
+    .checkout-section .create-nft-box .form-group select {
+        background-position: 96.3% 21px !important;
     }
-    .cart-section .column-labels { 
-        display: none; 
+
+    .cart-section .product-detail-box {
+        padding: 30px;
     }
-    .cart-section .product-image { 
-        text-align: center; 
-        float: right; 
-        width: auto; 
+    .cart-section .column-labels {
+        display: none;
+    }
+    .cart-section .product-image {
+        text-align: center;
+        float: right;
+        width: auto;
     }
     .cart-section .product-image img {
-        margin: 0 0 10px 10px; 
+        margin: 0 0 10px 10px;
     }
-    .cart-section .product-details { 
-        float: none; 
-        margin-bottom: 10px; 
-        width: auto; 
+    .cart-section .product-details {
+        float: none;
+        margin-bottom: 10px;
+        width: auto;
     }
-    .cart-section .product-price { 
-        clear: both; 
-        width: 90px; 
+    .cart-section .product-price {
+        clear: both;
+        width: 90px;
     }
-    .cart-section .product-quantity { 
-        width: 100px; 
+    .cart-section .product-quantity {
+        width: 100px;
     }
-    .cart-section .product-quantity input { 
-        margin-left: 20px; 
+    .cart-section .product-quantity input {
+        margin-left: 20px;
     }
-    .cart-section .product-removal { 
-        width: auto; 
+    .cart-section .product-removal {
+        width: auto;
     }
-    .cart-section .product-line-price { 
-        float: right; 
-        width: 70px; 
+    .cart-section .product-line-price {
+        float: right;
+        width: 70px;
     }
-    .cart-section .product .product-quantity input { 
-        width: 35px; 
-        height: 28px; 
+    .cart-section .product .product-quantity input {
+        width: 35px;
+        height: 28px;
     }
 }
 
@@ -4102,105 +4102,105 @@
         width: 110px;
     }
 
-    .product-section .filter-list .circle { 
-        bottom: 125px; right: 5px; width: 45px; 
+    .product-section .filter-list .circle {
+        bottom: 125px; right: 5px; width: 45px;
     }
-    .product-section .filter-list .btn {  
-        padding: 12px 20px; 
-        font-size: 12px; 
-        line-height: 12px; 
+    .product-section .filter-list .btn {
+        padding: 12px 20px;
+        font-size: 12px;
+        line-height: 12px;
     }
-    .product-section .heading { 
-        margin-bottom: 20px; 
+    .product-section .heading {
+        margin-bottom: 20px;
     }
-    .product-section .filter-list { 
-        margin-bottom: 25px; 
+    .product-section .filter-list {
+        margin-bottom: 25px;
     }
 
-    .nft-section .create-nft-box { 
-        padding: 30px 20px; 
+    .nft-section .create-nft-box {
+        padding: 30px 20px;
     }
     .nft-section .create-nft-box .form-group {
-        width: 100%; 
-        margin: 0 0 20px 0; 
+        width: 100%;
+        margin: 0 0 20px 0;
     }
-    .nft-section .create-nft-box .form-group select { 
-        background-position: 93.5% 19px !important; 
+    .nft-section .create-nft-box .form-group select {
+        background-position: 93.5% 19px !important;
     }
-    .nft-section .create-nft-box .special { 
-        width: 100% !important; 
+    .nft-section .create-nft-box .special {
+        width: 100% !important;
     }
-    .nft-section .create-nft-box .form-group .form-control { 
-        height: 46px; 
-        line-height: 46px; 
+    .nft-section .create-nft-box .form-group .form-control {
+        height: 46px;
+        line-height: 46px;
     }
-    .nft-section .create-nft-box .form-check { 
-        padding-top: 0px; 
-        padding-bottom: 20px; 
-        padding-left: 20px; 
+    .nft-section .create-nft-box .form-check {
+        padding-top: 0px;
+        padding-bottom: 20px;
+        padding-left: 20px;
     }
-    .nft-section .create-nft-box .form-check input { 
-        width: 16px; 
-        height: 16px; 
-        line-height: 16px; 
+    .nft-section .create-nft-box .form-check input {
+        width: 16px;
+        height: 16px;
+        line-height: 16px;
     }
-    .nft-section .create-nft-box .form-check label { 
-        font-size: 14px; 
-        line-height: 14px; 
-        margin-left: 5px; 
+    .nft-section .create-nft-box .form-check label {
+        font-size: 14px;
+        line-height: 14px;
+        margin-left: 5px;
     }
-    .nft-section .create-nft-box .btn { 
-        font-size: 14px; 
-        line-height: 14px; 
-        padding: 14px 30px; 
-        width: 100%; 
-        margin: 0 auto; 
+    .nft-section .create-nft-box .btn {
+        font-size: 14px;
+        line-height: 14px;
+        padding: 14px 30px;
+        width: 100%;
+        margin: 0 auto;
     }
-    .nft-section .preview-box-middle { 
-        padding-bottom: 20px; 
-        margin-bottom: 20px; 
+    .nft-section .preview-box-middle {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
     }
-    .nft-section .preview-box-top i { 
-        font-size: 18px; 
-        line-height: 24px; 
+    .nft-section .preview-box-top i {
+        font-size: 18px;
+        line-height: 24px;
     }
-    .nft-section .preview-box a { 
-        font-size: 14px; 
-        line-height: 14px; 
+    .nft-section .preview-box a {
+        font-size: 14px;
+        line-height: 14px;
     }
 
-    .checkout-section .preview-box .btn-outer .btn { 
-        font-size: 14px; 
+    .checkout-section .preview-box .btn-outer .btn {
+        font-size: 14px;
         line-height: 14px;
     }
     #search input[type="search"] {
-        font-size: 24px; 
+        font-size: 24px;
     }
 
-    .cart-section .product .product-image img { 
-        width: 65px; 
+    .cart-section .product .product-image img {
+        width: 65px;
     }
-    .cart-section .product-removal { 
-        float: right; 
+    .cart-section .product-removal {
+        float: right;
     }
-    .cart-section .product-line-price { 
-        float: right; 
-        clear: left; 
-        width: auto; 
-        margin-top: 10px; 
-        font-size: 14px; 
+    .cart-section .product-line-price {
+        float: right;
+        clear: left;
+        width: auto;
+        margin-top: 10px;
+        font-size: 14px;
     }
-    .cart-section .product .product-line-price:before { 
-        content: 'Item Total:'; 
-        font-size: 14px; 
+    .cart-section .product .product-line-price:before {
+        content: 'Item Total:';
+        font-size: 14px;
     }
-    .cart-section .totals .totals-item label { 
-        width: 60%; 
+    .cart-section .totals .totals-item label {
+        width: 60%;
     }
-    .cart-section .totals .totals-item .totals-value { 
-        width: 40%; 
+    .cart-section .totals .totals-item .totals-value {
+        width: 40%;
     }
-    .cart-section .product-price { 
-        font-size: 14px; 
+    .cart-section .product-price {
+        font-size: 14px;
     }
 }
