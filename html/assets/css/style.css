@@ -453,7 +453,7 @@ html{
     margin-bottom: 40px;
 }
 .services_section .services_box {
-    background: var(--e-global-color-white);
+    background: var(--);
     padding: 46px 35px 42px;
     border-radius: 20px;
     box-shadow: 0px 7px 67px 4px rgba(0, 0, 0, 0.03);
@@ -664,7 +664,7 @@ html{
     left: 108px;
 }
 .about_section .about_images_wrapper .about_left_box_wrapper {
-    background-color: var(--e-global-color-lime-green);
+    background-color: var(--e-global-color-secondary);
     border-radius: 56px;
     display: inline-block;
     position: absolute;
@@ -689,7 +689,8 @@ html{
     width: 75%;
 }
 .about_section .about_images_wrapper .about_left_box_wrapper .left_box_content span {
-    font-size: 40px;
+    font-size: 45px;
+    margin-right: 5px;
     line-height: 42px;
     font-weight: 700;
     font-family: 'Archivo', sans-serif;
@@ -697,6 +698,7 @@ html{
 }
 .about_section .about_images_wrapper .about_left_box_wrapper .left_box_content .plus {
     margin-left: -2px;
+    font-size: 20px;
 }
 .about_section .about_images_wrapper .about_left_box_wrapper .left_box_content p {
     color: var(--e-global-color-white);
@@ -713,6 +715,8 @@ html{
 .about_section .about_content h2 {
     color: var(--e-global-color-primary);
     margin-bottom: 16px;
+    font-size: 40px;
+    line-height: 50px;
 }
 .about_section .about_content p {
     color: var(--e-global-color-text);
