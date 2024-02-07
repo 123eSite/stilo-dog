@@ -74,30 +74,35 @@ $(document).ready(function() {
 })
 
 // Product Details Slider Nav
-var productNav = new Swiper('.single-product-nav-slider', {
-    slidesPerView: 3,
-    spaceBetween: 30,
-    mousewheel: {
-      invert: true,
-    },
-  });
-
-var productThumb = new Swiper('.single-product-thumb-slider', {
-    slidesPerView: 1,
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    thumbs: {
-      swiper: productNav
-    },
-    effect: 'fade',
-    fadeEffect: {
-      crossFade: true,
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true,
-    },
-  });
+var singleProductNavSlider = document.querySelector('.single-product-nav-slider');
+var singleProductThumbSlider = document.querySelector('.single-product-thumb-slider');
+if(singleProductNavSlider) {
+    var productNav = new Swiper('.single-product-nav-slider', {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        mousewheel: {
+          invert: true,
+        },
+      });
+}
+if(singleProductThumbSlider) {
+    var productThumb = new Swiper('.single-product-thumb-slider', {
+        slidesPerView: 1,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        thumbs: {
+          swiper: productNav
+        },
+        effect: 'fade',
+        fadeEffect: {
+          crossFade: true,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+          clickable: true,
+        },
+      });
+}
