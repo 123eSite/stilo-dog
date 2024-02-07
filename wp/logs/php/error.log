@@ -1,0 +1,11 @@
+[07-Feb-2024 21:48:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_excerpt() in D:\Clientes\Localsites\stilo-dog\wp\app\public\wp-content\themes\temastilodog\woocommerce\content-single-product.php:61
+Stack trace:
+#0 D:\Clientes\Localsites\stilo-dog\wp\app\public\wp-includes\template.php(792): require()
+#1 D:\Clientes\Localsites\stilo-dog\wp\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\Clientes\\Loc...', false)
+#2 D:\Clientes\Localsites\stilo-dog\wp\app\public\wp-content\themes\temastilodog\woocommerce\single-product.php(47): wc_get_template_part('content', 'single-product')
+#3 D:\Clientes\Localsites\stilo-dog\wp\app\public\wp-includes\template-loader.php(106): include('D:\\Clientes\\Loc...')
+#4 D:\Clientes\Localsites\stilo-dog\wp\app\public\wp-blog-header.php(19): require_once('D:\\Clientes\\Loc...')
+#5 D:\Clientes\Localsites\stilo-dog\wp\app\public\index.php(17): require('D:\\Clientes\\Loc...')
+#6 {main}
+  thrown in D:\Clientes\Localsites\stilo-dog\wp\app\public\wp-content\themes\temastilodog\woocommerce\content-single-product.php on line 61
+[07-Feb-2024 22:15:47 UTC] PHP Warning:  Undefined variable $class in D:\Clientes\Localsites\stilo-dog\wp\app\public\wp-content\themes\temastilodog\header.php on line 43
