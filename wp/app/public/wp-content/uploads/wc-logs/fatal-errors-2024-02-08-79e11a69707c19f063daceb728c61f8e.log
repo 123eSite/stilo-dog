@@ -1,0 +1,12 @@
+2024-02-08T14:47:59+00:00 CRITICAL Uncaught Error: Class "bootstrap_5_wp_nav_menu_walker" not found in D:\Clientes\Localsites\stilo-dog\wp\app\public\wp-content\themes\temastilodog\header.php:64
+Stack trace:
+#0 D:\Clientes\Localsites\stilo-dog\wp\app\public\wp-includes\template.php(790): require_once()
+#1 D:\Clientes\Localsites\stilo-dog\wp\app\public\wp-includes\template.php(725): load_template('D:\\Clientes\\Loc...', true, Array)
+#2 D:\Clientes\Localsites\stilo-dog\wp\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 D:\Clientes\Localsites\stilo-dog\wp\app\public\wp-content\themes\temastilodog\page.php(1): get_header()
+#4 D:\Clientes\Localsites\stilo-dog\wp\app\public\wp-includes\template-loader.php(106): include('D:\\Clientes\\Loc...')
+#5 D:\Clientes\Localsites\stilo-dog\wp\app\public\wp-blog-header.php(19): require_once('D:\\Clientes\\Loc...')
+#6 D:\Clientes\Localsites\stilo-dog\wp\app\public\index.php(17): require('D:\\Clientes\\Loc...')
+#7 {main}
+  thrown, em D:\Clientes\Localsites\stilo-dog\wp\app\public\wp-content\themes\temastilodog\header.php, na linha 64
+
