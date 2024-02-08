@@ -4257,3 +4257,7 @@ input[type="number"]::-webkit-calendar-picker-indicator {
     margin: 0 26px 0 0;
     min-width: 85px;
   }
+
+  .woocommerce .wc-block-components-notice-banner>.wc-block-components-notice-banner__content .wc-forward {
+    padding: 0.618em 1em !important;
+  }

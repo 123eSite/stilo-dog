@@ -4332,3 +4332,20 @@ input[type="number"]::-webkit-calendar-picker-indicator {
     margin: 0 26px 0 0;
     min-width: 85px;
   }
+  .woocommerce .wc-block-components-notice-banner>.wc-block-components-notice-banner__content .wc-forward {
+    padding: 0.618em 1em !important;
+    text-decoration: none !important;
+    display: flex;
+    align-items: center;
+    float: none !important;
+  }
+  .woocommerce .wc-block-components-notice-banner>.wc-block-components-notice-banner__content {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.wc-block-components-notice-banner.is-success>svg {
+    margin-top: 14px;
+}

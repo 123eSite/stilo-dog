@@ -135,12 +135,12 @@
                                 <a class="nav-link default-btn contact_us" href="#">Entre em contato</a>
                             </li>
                         </ul> */?>
-                        <a href="#" class="outer_div mr-2">
+                        <a href="https://wa.me/+55<?php echo preg_replace("/[\s\(\)-]/", "", get_field('telefone','options'));	?>" class="outer_div mr-2" target="_blank">
                             <figure class="mb-0">
                                 <i class="fab fa-whatsapp"></i>
                             </figure>
                         </a>
-                        <a href="#" class="outer_div cart">
+                        <a href="<?php bloginfo('url'); ?>/carrinho" class="outer_div cart">
                             <figure class="mb-0">
                                 <i class="fa-solid fa-cart-shopping"></i>
                             </figure>

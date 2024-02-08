@@ -10,13 +10,13 @@
                                 <img width="150" src="<?php bloginfo('template_url'); ?>/assets/images/stilo-dog.png" alt="" class="img-fluid">
                             </figure>
                         </a>
-                        <p>NOME DA EMPRESA - CNPJ</p>
+                        <p><?php the_field('empresa','options'); ?></p>
                         <div class="headphone_wrapper">
                             <figure class="mb-0">
                                 <img src="<?php bloginfo('template_url'); ?>/assets/images/footer_headphone.png" alt="" class="img-fluid">
                             </figure>
                             <div class="headphone_content">
-                                <a href="tel:+568925896325" class="text-decoration-none d-block">11 99999-9999</a>
+                                <a href="https://wa.me/+55<?php echo preg_replace("/[\s\(\)-]/", "", get_field('telefone','options'));	?>" class="text-decoration-none d-block" target="_blank"><?php the_field('telefone','options'); ?></a>
                                 <span>Mais informações. Entre em contato.</span>
                             </div>
                         </div>
@@ -26,48 +26,28 @@
                     <div class="hours_col">
                         <h3>Atendimento</h3>
                         <ul class="list-unstyled">
+                            <?php if(have_rows('atendimento','options')) : while(have_rows('atendimento','options')) : the_row(); ?>
                             <li>
-                                <p>Segunrda a sexta</p>
+                                <p><?php the_sub_field('titulo'); ?></p>
                             </li>
                             <li>
-                                <span>10:00 – 18:00</span>
+                                <span><?php the_sub_field('horario'); ?></span>
                             </li>
-                            <li>
-                                <p>Sábado – Domingo</p>
-                            </li>
-                            <li>
-                                <span>10:00 – 13.00</span>
-                            </li>
-                            <li>
-                                <p>Feriados</p>
-                            </li>
-                            <li>
-                                <span>Fechado</span>
-                            </li>
+                            <?php endwhile; endif; ?>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 col-12 d-md-block d-none">
                     <div class="links_col">
                         <h3>Suporte</h3>
-                        <ul class="list-unstyled">
-                            <li>
-                                <i class="fa-solid fa-angle-right"></i>
-                                <a href="#">Política de privacidade</a>
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-angle-right"></i>
-                                <a href="#">Política de cookies</a>
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-angle-right"></i>
-                                <a href="#">Trocas e devoluções</a>
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-angle-right"></i>
-                                <a href="#">Contato</a>
-                            </li>
-                        </ul>
+                        <?php
+                            wp_nav_menu(array(
+                                'theme_location' => 'footer-menu',
+                                'container' => false,
+                                'menu_class' => 'list-unstyled',
+                                'before' => '<i class="fa-solid fa-angle-right"></i>'
+                            ));
+                        ?>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12 d-sm-block d-none">
@@ -78,13 +58,13 @@
                                 <p>Endereço:</p>
                             </li>
                             <li>
-                                <span>Nome da Rua, 1111</span>
+                                <span><?php the_field('endereco','options'); ?></span>
                             </li>
                             <li>
                                 <p>E-mail:</p>
                             </li>
                             <li class="mail">
-                                <a href="mailto:contato@stilodog.com" class="text-decoration-none">contato@stilodog.com</a>
+                                <a href="mailto:<?php the_field('email','options'); ?> class="text-decoration-none"><?php the_field('email','options'); ?></a>
                             </li>
                         </ul>
                         <ul class="list-unstyled">
