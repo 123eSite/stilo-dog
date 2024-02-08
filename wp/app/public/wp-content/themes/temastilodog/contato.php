@@ -22,7 +22,7 @@
                             </div>
                             <div class="contact_info_box_content_wrapper">
                                 <h3>Whatsapp:</h3>
-                                <p class="mb-0"><a href="https://wa.me/+5511999999999" class="text-decoration-none">11 99999-9999</a></p>
+                                <p class="mb-0"><a href="https://wa.me/+55<?php echo preg_replace("/[\s\(\)-]/", "", get_field('telefone','options'));	?>" class="text-decoration-none" target="_blank"><?php the_field('telefone','options'); ?></a></p>
                             </div>
                         </div>
                     </div>
@@ -35,7 +35,7 @@
                             </div>
                             <div class="contact_info_box_content_wrapper">
                                 <h3>E-mail:</h3>
-                                <p class="mb-0"><a href="mailto:contato@stilodog.com.br" class="text-decoration-none">contato@stilodog.com.br</a></p>
+                                <p class="mb-0"><a href="mailto:<?php the_field('email','options'); ?>" class="text-decoration-none"><?php the_field('email','options'); ?></a></p>
                             </div>
                         </div>
                     </div>

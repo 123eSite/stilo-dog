@@ -183,18 +183,7 @@ html{
 .navbar-nav .nav-item.default-btn {
     padding: 0;
 }
-.navbar-nav .nav-item.contact_us a {
-    padding: 15px 45px 15px 40px;
-    font-weight: 600;
-    color: var(--e-global-color-white) !important;
-}
-.navbar-nav .nav-item.contact_us:hover {
-    background-color: var(--e-global-color-white);
-    color: var(--e-global-color-accent) !important;
-}
-.navbar-nav .contact_us:hover a {
-    color: var(--e-global-color-accent) !important;
-}
+
 .navbar-nav .nav-item .dropdown-item:hover{
     color: var(--e-global-color-accent) !important;
 }
@@ -4348,4 +4337,36 @@ input[type="number"]::-webkit-calendar-picker-indicator {
 }
 .wc-block-components-notice-banner.is-success>svg {
     margin-top: 14px;
+}
+table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product-name {
+    color: var(--e-global-color-accent);
+}
+.wc-block-components-totals-coupon-link, .wc-block-checkout__terms a {
+    color: var(--e-global-color-accent);
+}
+.wc-block-components-totals-coupon-link:hover, .wc-block-checkout__terms a:hover {
+    color: var(--e-global-color-accent);
+    text-decoration: underline;
+}
+.wc-block-components-button:not(.is-link) {
+    padding: 10px 36px;
+    border-radius: 30px;
+    display: inline-block;
+    color: var(--e-global-color-white);
+    background: var(--e-global-color-accent);
+    border: 1px solid var(--e-global-color-accent);
+    box-shadow: 0px 7px 22px 2px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease-in-out;
+}
+.wc-block-components-button:not(.is-link):hover {
+    background-color: var(--e-global-color-white);
+    color: var(--e-global-color-accent) !important;
+    text-decoration: none;
+}
+@media (max-width: 991px) {
+    .navbar-nav .nav-item.default-btn {
+        background: none;
+        border: none;
+        box-shadow: none;
+    }
 }
