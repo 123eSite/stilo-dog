@@ -141,6 +141,9 @@
                             </figure>
                         </a>
                         <a href="<?php bloginfo('url'); ?>/carrinho" class="outer_div cart">
+                            <span class="count-cart">
+                                <?php global $woocommerce; echo $woocommerce->cart->cart_contents_count; ?>
+                            </span>
                             <figure class="mb-0">
                                 <i class="fa-solid fa-cart-shopping"></i>
                             </figure>
