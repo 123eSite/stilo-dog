@@ -31,6 +31,9 @@
                     <?php the_field('texto_quem'); ?>
                 </div>
             </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                <?php the_field('texto_quem1'); ?>
+            </div>
         </div>
     </div>
 </section>

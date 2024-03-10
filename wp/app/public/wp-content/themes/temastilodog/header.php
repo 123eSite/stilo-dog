@@ -30,9 +30,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!-- StyleSheet link CSS -->
     <link href="<?php bloginfo('template_url'); ?>/assets/css/fancybox.min.css" rel="stylesheet" type="text/css">
-    <link href="<?php bloginfo('template_url'); ?>/assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="<?php bloginfo('template_url'); ?>/assets/css/style.css?<?php echo date('l jS \of F Y h:i:s A'); ?>" rel="stylesheet" type="text/css">
     <link href="<?php bloginfo('template_url'); ?>/assets/css/swiper-bundle.min.css" rel="stylesheet" type="text/css">
-    <link href="<?php bloginfo('template_url'); ?>/assets/css/mediaqueries.css" rel="stylesheet" type="text/css">
+    <link href="<?php bloginfo('template_url'); ?>/assets/css/mediaqueries.css?<?php echo date('l jS \of F Y h:i:s A'); ?>" rel="stylesheet" type="text/css">
     <link href="<?php bloginfo('template_url'); ?>/assets/css/owl.carousel.min.css" rel="stylesheet" type="text/css">
     <link href="<?php bloginfo('template_url'); ?>/assets/css/owl.theme.default.min.css" rel="stylesheet" type="text/css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -52,6 +52,19 @@
                     <span class="navbar-toggler-icon"></span>
                     <span class="navbar-toggler-icon"></span>
                     </button>
+                    <a href="https://wa.me/+55<?php echo preg_replace("/[\s\(\)-]/", "", get_field('telefone','options'));	?>" class="outer_div mobile mr-2" target="_blank">
+                        <figure class="mb-0">
+                            <i class="fab fa-whatsapp"></i>
+                        </figure>
+                    </a>
+                    <a href="<?php bloginfo('url'); ?>/carrinho" class="outer_div mobile cart">
+                            <span class="count-cart">
+                                <?php global $woocommerce; echo $woocommerce->cart->cart_contents_count; ?>
+                            </span>
+                            <figure class="mb-0">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </figure>
+                        </a>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <?php
                             wp_nav_menu(array(
@@ -64,77 +77,6 @@
                                 'walker' => new bootstrap_5_wp_nav_menu_walker()
                             ));
                         ?>
-                        <?php /*<ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle dropdown-color navbar-text-color" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false"> Produtos </a>
-                                <div class="dropdown-menu drop-down-content">
-                                    <ul class="list-unstyled drop-down-pages">
-                                        <li class="nav-item">
-                                            <a class="dropdown-item nav-link" href="#">Inverno </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="dropdown-item nav-link" href="#">Verão </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="dropdown-item nav-link" href="#">Roupa Cirúrgica</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="dropdown-item nav-link" href="#">Acessórios</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle dropdown-color navbar-text-color" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false"> Macho </a>
-                                <div class="dropdown-menu drop-down-content">
-                                    <ul class="list-unstyled drop-down-pages">
-                                        <li class="nav-item">
-                                            <a class="dropdown-item nav-link" href="#">Inverno </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="dropdown-item nav-link" href="#">Verão </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="dropdown-item nav-link" href="#">Roupa Cirúrgica</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="dropdown-item nav-link" href="#">Acessórios</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle dropdown-color navbar-text-color" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false"> Fêmea </a>
-                                <div class="dropdown-menu drop-down-content">
-                                    <ul class="list-unstyled drop-down-pages">
-                                        <li class="nav-item">
-                                            <a class="dropdown-item nav-link" href="#">Inverno </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="dropdown-item nav-link" href="#">Verão </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="dropdown-item nav-link" href="#">Roupa Cirúrgica</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="dropdown-item nav-link" href="#">Acessórios</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Quem Somos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link default-btn contact_us" href="#">Entre em contato</a>
-                            </li>
-                        </ul> */?>
                         <a href="https://wa.me/+55<?php echo preg_replace("/[\s\(\)-]/", "", get_field('telefone','options'));	?>" class="outer_div mr-2" target="_blank">
                             <figure class="mb-0">
                                 <i class="fab fa-whatsapp"></i>

@@ -427,6 +427,17 @@ if (!function_exists('vivacom_widgets_init')) {
         ));
     }
 }
+
+// Change button text
+function ts_change_proceed_to_checkout_text($translated_text, $text, $domain) {
+    if ($text === 'Proceed to checkout') {
+        $translated_text = 'Finalizar compra'; // Change to your desired text
+    }
+    return $translated_text;
+}
+add_filter('gettext', 'ts_change_proceed_to_checkout_text', 20, 3);
+
+
 // Remove CSS and/or JS for Select2 used by WooCommerce, see https://gist.github.com/Willem-Siebe/c6d798ccba249d5bf080.
 
     // add_action( 'wp_enqueue_scripts', 'wsis_dequeue_stylesandscripts_select2', 100 );

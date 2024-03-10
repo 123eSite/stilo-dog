@@ -5,9 +5,9 @@
             <div class="row">
                 <div class="col-lg-4 col-md-5 col-sm-6 col-12">
                     <div class="about_col">
-                        <a href="./index.html">
+                        <a href="<?php bloginfo('url'); ?>">
                             <figure>
-                                <img width="150" src="<?php bloginfo('template_url'); ?>/assets/images/stilo-dog.png" alt="" class="img-fluid">
+                                <img width="150" src="<?php bloginfo('template_url'); ?>/assets/images/stilo-dog.png" alt="Stilo Dog" class="img-fluid">
                             </figure>
                         </a>
                         <p><?php the_field('empresa','options'); ?></p>
@@ -22,7 +22,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 col-12 d-lg-block d-none">
+                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
                     <div class="hours_col">
                         <h3>Atendimento</h3>
                         <ul class="list-unstyled">
@@ -37,7 +37,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-12 d-md-block d-none">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-12">
                     <div class="links_col">
                         <h3>Suporte</h3>
                         <?php
@@ -50,7 +50,7 @@
                         ?>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 d-sm-block d-none">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="contact_col">
                         <h3>Informações e contatos</h3>
                         <ul class="list-unstyled">

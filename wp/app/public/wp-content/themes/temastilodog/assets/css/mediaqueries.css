@@ -313,6 +313,9 @@
     .navbar-nav .contact_us:hover a {
         color: var(--e-global-color-accent) !important;
     }
+    .outer_div.mobile {
+        display: none !important;
+    }
 }
 @media screen and (max-width: 1199px){
     .main_header {
@@ -583,16 +586,17 @@
         line-height: 22px;
     }
     .middle-portion .hours_col {
-        margin-left: -20px;
+        margin-left: 30px;
     }
     .middle-portion .hours_col span {
         margin-bottom: 12px;
     }
     .middle-portion .links_col {
-        padding-left: 0;
+        padding-left: 30px;
+        margin-bottom: 20px;
     }
     .middle-portion .contact_col {
-        padding-left: 0;
+        padding-left: 30px;
     }
     .middle-portion ul .icons i {
         margin-right: 10px;
@@ -1277,6 +1281,7 @@
     }
     .navbar-toggler {
         margin-left: auto;
+        margin-right: 20px;
         border: none !important;
         padding: 0;
         width: 30px;
@@ -1365,6 +1370,12 @@
     }
     .navbar .outer_div{
         display: none;
+    }
+    .navbar .outer_div.mobile {
+        display: flex;
+        background: none;
+        color: var(--e-global-color-secondary);
+        width: 40px;
     }
     .navbar-nav .drop-down-pages .nav-item a {
         padding: 12px 40px !important;
@@ -1701,7 +1712,7 @@
     }
 
     .footer-section {
-        padding: 265px 0 0;
+        padding: 50px 0 0;
     }
     .middle-portion {
         margin-bottom: 65px;
@@ -2860,7 +2871,7 @@
     }
 
     .footer-section {
-        padding: 255px 0 0;
+        padding: 50px 0 0;
     }
     .middle-portion {
         margin-bottom: 55px;
@@ -3514,6 +3525,9 @@
 }
 
 @media screen and (max-width: 575px){
+    .woocommerce .woocommerce-error .button, .woocommerce .woocommerce-info .button, .woocommerce .woocommerce-message .button, .woocommerce-page .woocommerce-error .button, .woocommerce-page .woocommerce-info .button, .woocommerce-page .woocommerce-message .button {
+        float: none !important;
+    }
     .main_header {
         padding: 15px 15px 0;
     }
@@ -3742,14 +3756,18 @@
     }
     .middle-portion .about_col .headphone_wrapper .headphone_content {
         padding-left: 0;
-        width: 50%;
-        float: left;
-        margin-left: -55px;
+        width: 100%;
+        float: none;
+        margin-left: 0;
+        margin-bottom: 20px;
     }
     .middle-portion .about_col .headphone_wrapper .headphone_content a {
         font-size: 16px;
         line-height: 16px;
-        text-align: left;
+        text-align: center;
+    }
+    .middle-portion .about_col .headphone_wrapper figure {
+        display: none;
     }
     .copyright p {
         font-size: 12px;
@@ -4004,7 +4022,7 @@
     }
 
     .shop_store_section #all .store_box {
-        margin: 0 0 30px;
+        margin: 0 auto 30px;
     }
     .shop_store_section .store_box {
         margin: 0;
@@ -4012,7 +4030,7 @@
     }
     .shop_store_section .store_box .store_image_box {
         min-height: 240px;
-        padding: 10px 95px;
+        padding: 10px 15px;
     }
     .shop_store_section .store_box .store_box_content .text_rate_wrapper .text_wrapper {
         width: 100%;
