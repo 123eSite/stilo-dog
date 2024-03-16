@@ -64,13 +64,13 @@
                                 <p>E-mail:</p>
                             </li>
                             <li class="mail">
-                                <a href="mailto:<?php the_field('email','options'); ?> class="text-decoration-none"><?php the_field('email','options'); ?></a>
+                                <a href="mailto:<?php the_field('email','options'); ?>" class="text-decoration-none"><?php the_field('email','options'); ?></a>
                             </li>
                         </ul>
                         <ul class="list-unstyled">
-                            <li class="icons"><a href="#"><i class="fa-brands fa-facebook-f hover-effect" aria-hidden="true"></i></a></li>
-                            <li class="icons"><a href="#"><i class="fa-brands fa-youtube hover-effect" aria-hidden="true"></i></a></li>
-                            <li class="icons"><a href="#"><i class="fa-brands fa-instagram mr-0 hover-effect" aria-hidden="true"></i></a></li>
+                            <?php /*<li class="icons"><a href="#"><i class="fa-brands fa-facebook-f hover-effect" aria-hidden="true"></i></a></li>
+                            <li class="icons"><a href="#"><i class="fa-brands fa-youtube hover-effect" aria-hidden="true"></i></a></li>*/ ?>
+                            <li class="icons"><a href="https://www.instagram.com/stilo.dog?igsh=NGliajZlOHBhdTls" target="_blank"><i class="fa-brands fa-instagram mr-0 hover-effect" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
                 </div>
