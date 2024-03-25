@@ -438,6 +438,12 @@ function ts_change_proceed_to_checkout_text($translated_text, $text, $domain) {
 add_filter('gettext', 'ts_change_proceed_to_checkout_text', 20, 3);
 
 
+// Change "Add to Cart" > "Add to Bag" in Single Page
+add_filter( 'woocommerce_product_single_add_to_cart_text', 'woocommerce_single_page_add_to_cart_callback' );
+function woocommerce_single_page_add_to_cart_callback() {
+    return __( 'Adicionar ao carrinho', 'text-domain' );
+}
+
 // Remove CSS and/or JS for Select2 used by WooCommerce, see https://gist.github.com/Willem-Siebe/c6d798ccba249d5bf080.
 
     // add_action( 'wp_enqueue_scripts', 'wsis_dequeue_stylesandscripts_select2', 100 );

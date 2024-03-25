@@ -4462,7 +4462,7 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product
     position: relative !important;
     text-align: center !important;
     transition: box-shadow .1s linear !important;
-    padding: 10px 36px !important;
+    padding: 10px 30px !important;
     border-radius: 30px !important;
     color: var(--e-global-color-white) !important;
     background: var(--e-global-color-accent) !important;
@@ -4695,6 +4695,17 @@ table.shop_table.woocommerce-checkout-review-order-table td.product-name, table.
     }
 }
 @media (max-width: 767px) {
+    .product-details-action .qib-button-wrapper {
+        float: none;
+        justify-content: flex-start;
+        margin-bottom: 30px;
+    }
+    .product-details-action, .variations_button {
+        display: block;
+    }
+    .woocommerce table.shop_table_responsive tr td, .woocommerce-page table.shop_table_responsive tr td {
+        min-height: 66px;
+    }
     .grid-cart > form, .grid-checkout .left {
         padding-right: 0;
         width: 100%;
